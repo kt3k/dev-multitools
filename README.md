@@ -4,8 +4,16 @@ Swiss army knife for software development — a Claude Code plugin that helps yo
 
 ## Install
 
+First, add the marketplace:
+
 ```sh
-claude plugin add kt3k/dev-multitools
+claude plugin marketplace add kt3k/dev-multitools
+```
+
+Then, install the plugin:
+
+```sh
+claude plugin install dev-multitools
 ```
 
 ## Skills
