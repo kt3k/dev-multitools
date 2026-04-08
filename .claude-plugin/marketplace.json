@@ -10,7 +10,10 @@
   "plugins": [
     {
       "name": "dev-multitools",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "kt3k/dev-multitools"
+      },
       "description": "Swiss army knife for software development. Improve the overall code quality. Develop carefully and steadily.",
       "version": "1.0.0",
       "author": {
