@@ -1,3 +1,5 @@
+<img src="logo.png" width="200" />
+
 # dev-multitools
 
 Swiss army knife for software development — a Claude Code plugin that helps you improve overall code quality by developing carefully and steadily.
