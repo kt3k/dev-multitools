@@ -1,5 +1,5 @@
 ---
-name: review
+name: twada-review
 description: |
   Review code or diffs from the perspective of @t_wada (Takuto Wada).
   Focuses on testability, simplicity, managing technical debt, and sustainable design.

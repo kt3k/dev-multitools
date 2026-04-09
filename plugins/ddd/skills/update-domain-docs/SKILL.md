@@ -1,5 +1,5 @@
 ---
-name: update-docs
+name: update-domain-docs
 description: |
   Update or create DDD documentation based on the current state of the codebase.
   Generates bounded context maps, glossaries, and aggregate documentation.
