@@ -17,6 +17,7 @@ Then, install the plugins you want:
 ```sh
 claude plugin install dev-multitools
 claude plugin install ddd
+claude plugin install twada
 ```
 
 ## Plugins
