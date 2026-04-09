@@ -1,0 +1,8 @@
+{
+  "name": "ddd",
+  "description": "Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoshiya Hinosawa"
+  }
+}

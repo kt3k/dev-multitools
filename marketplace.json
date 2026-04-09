@@ -14,6 +14,7 @@
         "source": "github",
         "repo": "kt3k/dev-multitools"
       },
+      "path": "./plugins/mt",
       "description": "Swiss army knife for software development. Improve the overall code quality. Develop carefully and steadily.",
       "version": "1.0.0",
       "author": {
@@ -21,6 +22,21 @@
       },
       "license": "MIT",
       "keywords": ["simplify", "breakdown", "execute", "refactor", "planning"]
+    },
+    {
+      "name": "ddd",
+      "source": {
+        "source": "github",
+        "repo": "kt3k/dev-multitools"
+      },
+      "path": "./plugins/ddd",
+      "description": "Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yoshiya Hinosawa"
+      },
+      "license": "MIT",
+      "keywords": ["ddd", "domain-driven-design", "review", "ubiquitous-language", "documentation"]
     }
   ]
 }
