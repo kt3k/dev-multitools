@@ -10,11 +10,7 @@
   "plugins": [
     {
       "name": "dev-multitools",
-      "source": {
-        "source": "github",
-        "repo": "kt3k/dev-multitools"
-      },
-      "path": "./plugins/mt",
+      "source": "./plugins/mt",
       "description": "Swiss army knife for software development. Improve the overall code quality. Develop carefully and steadily.",
       "version": "1.0.0",
       "author": {
@@ -25,11 +21,7 @@
     },
     {
       "name": "ddd",
-      "source": {
-        "source": "github",
-        "repo": "kt3k/dev-multitools"
-      },
-      "path": "./plugins/ddd",
+      "source": "./plugins/ddd",
       "description": "Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.",
       "version": "1.0.0",
       "author": {
@@ -40,11 +32,7 @@
     },
     {
       "name": "twada",
-      "source": {
-        "source": "github",
-        "repo": "kt3k/dev-multitools"
-      },
-      "path": "./plugins/twada",
+      "source": "./plugins/twada",
       "description": "Code review from the perspective of @t_wada (Takuto Wada). Focuses on testability, simplicity, and sustainable software design.",
       "version": "1.0.0",
       "author": {
