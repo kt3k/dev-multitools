@@ -2,7 +2,7 @@
 
 # dev-multitools
 
-Swiss army knife for software development — a Claude Code plugin that helps you improve overall code quality by developing carefully and steadily.
+A collection of Claude Code plugins for software development.
 
 ## Install
 
@@ -12,25 +12,46 @@ First, add the marketplace:
 claude plugin marketplace add kt3k/dev-multitools
 ```
 
-Then, install the plugin:
+Then, install the plugins you want:
 
 ```sh
 claude plugin install dev-multitools
+claude plugin install ddd
 ```
 
-## Skills
+## Plugins
 
-### `/breakdown`
+### dev-multitools (`mt`)
+
+Swiss army knife for software development. Improve the overall code quality by developing carefully and steadily.
+
+#### `/mt:breakdown`
 
 Break down a given task into subtasks with time estimates. Analyzes the codebase and task requirements to produce a structured plan with estimated effort (XS/S/M/L/XL) for each step. Optionally saves the plan as `plan.md`.
 
-### `/execute`
+#### `/mt:execute`
 
 Execute a plan step by step. Reads `plan.md` in the current working directory or a plan from the conversation context, then implements each subtask sequentially with verification at each step.
 
-### `/simplify`
+#### `/mt:simplify`
 
 Read source code and find opportunities to simplify, deduplicate, and consolidate. Applies changes after user approval.
+
+### ddd (`ddd`)
+
+Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.
+
+#### `/ddd:review`
+
+Review the codebase from a Domain-Driven Design perspective. Evaluate bounded contexts, aggregates, entities, value objects, domain services, repositories, domain events, and ubiquitous language usage. Produces a scored report with concrete improvement suggestions.
+
+#### `/ddd:find-ubiquitous-language`
+
+Analyze the codebase to discover and extract the ubiquitous language. Identifies domain terms, their definitions, code locations, and inconsistencies such as synonyms, homonyms, and missing terms. Outputs a structured glossary.
+
+#### `/ddd:update-docs`
+
+Generate or update DDD documentation based on the current state of the codebase. Creates context maps, glossaries, and per-aggregate documentation under `docs/ddd/`. Shows a diff and asks for confirmation before writing.
 
 ## License
 
