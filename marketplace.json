@@ -37,6 +37,21 @@
       },
       "license": "MIT",
       "keywords": ["ddd", "domain-driven-design", "review", "ubiquitous-language", "documentation"]
+    },
+    {
+      "name": "twada",
+      "source": {
+        "source": "github",
+        "repo": "kt3k/dev-multitools"
+      },
+      "path": "./plugins/twada",
+      "description": "Code review from the perspective of @t_wada (Takuto Wada). Focuses on testability, simplicity, and sustainable software design.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yoshiya Hinosawa"
+      },
+      "license": "MIT",
+      "keywords": ["tdd", "testability", "simplicity", "refactoring", "review", "twada"]
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "twada",
+  "description": "Code review from the perspective of @t_wada (Takuto Wada). Focuses on testability, simplicity, and sustainable software design.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoshiya Hinosawa"
+  }
+}
