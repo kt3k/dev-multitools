@@ -1,0 +1,1 @@
+- When something is update in plugin, suggest upgrading the version number of it
