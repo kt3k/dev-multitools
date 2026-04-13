@@ -1,7 +1,7 @@
 {
   "name": "mt",
   "description": "dev-multitools - swiss army knife for software development. Improve the overall code quality. Develop carefully and steadily.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Yoshiya Hinosawa"
   }
