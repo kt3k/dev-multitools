@@ -30,7 +30,7 @@ Implement a task breakdown plan step by step.
 
 4. **Report progress**: After completing each subtask, show the updated checklist with completed items checked off.
 
-4. **Handle issues**: If a subtask is blocked or unclear:
+5. **Handle issues**: If a subtask is blocked or unclear:
    - Stop and ask the user for clarification
    - Do NOT skip subtasks or guess at requirements
 
