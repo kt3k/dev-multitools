@@ -23,7 +23,7 @@
       "name": "ddd",
       "source": "./plugins/ddd",
       "description": "Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Yoshiya Hinosawa"
       },
