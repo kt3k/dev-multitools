@@ -26,11 +26,21 @@ Implement a task breakdown plan step by step.
    - Verify the changes work (run tests, type checks, etc. if applicable)
    - Mark the subtask as done and briefly report what was done
 
-3. **Report progress**: After completing each subtask, show the updated checklist with completed items checked off.
+3. **Update plan.md**: If the plan was loaded from `plan.md`, update the file directly — change `- [ ]` to `- [x]` for each completed subtask. This keeps the file in sync with actual progress so that future sessions can resume from where you left off.
+
+4. **Report progress**: After completing each subtask, show the updated checklist with completed items checked off.
 
 4. **Handle issues**: If a subtask is blocked or unclear:
    - Stop and ask the user for clarification
    - Do NOT skip subtasks or guess at requirements
+
+### Batch Size
+
+- By default, execute up to **M size** worth of subtasks in one batch, then pause and ask the user whether to continue.
+  - For example, if there are three consecutive S subtasks, execute up to two or three of them (roughly M equivalent) before pausing.
+  - If a single subtask is M, execute that one subtask and then pause.
+  - XS and S subtasks can be grouped together as long as their combined effort does not exceed M.
+- If the user explicitly requests a larger batch (e.g. "do all of them", "keep going until done", "execute through step 3"), follow that instruction.
 
 ### Guidelines
 
