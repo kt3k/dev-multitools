@@ -17,7 +17,6 @@ Then, install the plugins you want:
 ```sh
 claude plugin install dev-multitools
 claude plugin install ddd
-claude plugin install twada
 ```
 
 ## Plugins
@@ -38,6 +37,10 @@ Execute a plan step by step. Reads `plan.md` in the current working directory or
 
 Read source code and find opportunities to simplify, deduplicate, and consolidate. Applies changes after user approval.
 
+#### `/mt:review-testability`
+
+Review code or diffs with a focus on testability, simplicity, and sustainable design. Evaluates dependency injection, side-effect separation, behavior-vs-implementation testing, test quality, YAGNI, quality-speed tradeoffs, technical debt, and refactoring opportunities. Produces a severity-rated report with concrete suggestions.
+
 ### ddd (`ddd`)
 
 Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.
@@ -53,14 +56,6 @@ Analyze the codebase to discover and extract the ubiquitous language. Identifies
 #### `/ddd:update-docs`
 
 Generate or update DDD documentation based on the current state of the codebase. Creates context maps, glossaries, and per-aggregate documentation under `docs/ddd/`. Shows a diff and asks for confirmation before writing.
-
-### twada (`twada`)
-
-Code review from the perspective of @t_wada (Takuto Wada). Focuses on testability, simplicity, and sustainable software design.
-
-#### `/twada:review`
-
-Review code or diffs from the perspective of @t_wada. Evaluates testability (dependency injection, side effect separation, behavior vs implementation testing), test quality (coverage, failure messages, over-mocking), simplicity and YAGNI, quality-speed tradeoffs, technical debt management, and refactoring opportunities. Produces a severity-rated report with concrete suggestions.
 
 ## License
 

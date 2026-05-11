@@ -1,13 +1,13 @@
 ---
-name: twada-review
+name: review-testability
 description: |
-  Review code or diffs from the perspective of @t_wada (Takuto Wada).
-  Focuses on testability, simplicity, managing technical debt, and sustainable design.
+  Review code or diffs with a focus on testability, simplicity,
+  managing technical debt, and sustainable design.
 ---
 
-## twada Review Skill
+## Testability Review Skill
 
-Review code (a diff or the entire codebase) from the perspective of Takuto Wada (@t_wada) — a software engineer known for advocacy of TDD, testability, simplicity, and sustainable software development.
+Review code (a diff or the entire codebase) with a focus on testability, simplicity, technical-debt management, and sustainable software development.
 
 ### Review Target
 
@@ -62,10 +62,10 @@ Evaluate the code against the following principles:
 ### Output Format
 
 ```
-## twada Review
+## Testability Review
 
 ### Summary
-<Overall assessment in 2-3 sentences — would @t_wada mass this code in a code review?>
+<Overall assessment in 2-3 sentences — would this code pass a rigorous testability-focused review?>
 
 ### Findings
 
