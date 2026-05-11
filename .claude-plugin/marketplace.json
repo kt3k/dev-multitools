@@ -1,5 +1,5 @@
 {
-  "name": "dev-multitools",
+  "name": "kt3k-skills",
   "owner": {
     "name": "Yoshiya Hinosawa"
   },
@@ -9,10 +9,10 @@
   },
   "plugins": [
     {
-      "name": "dev-multitools",
+      "name": "kt",
       "source": ".",
       "description": "Swiss army knife for software development. Improve the overall code quality. Develop carefully and steadily.",
-      "version": "1.4.0",
+      "version": "1.0.0",
       "author": {
         "name": "Yoshiya Hinosawa"
       },

@@ -1,54 +1,50 @@
 <img src="logo.png" width="200" />
 
-# dev-multitools
+# kt3k-skills
 
-A collection of Claude Code plugins for software development.
+Swiss army knife for software development. Improve the overall code quality by developing carefully and steadily.
 
 ## Install
 
 First, add the marketplace:
 
 ```sh
-claude plugin marketplace add kt3k/dev-multitools
+claude plugin marketplace add kt3k/skills
 ```
 
-Then, install the plugins you want:
+Then, install the plugin:
 
 ```sh
-claude plugin install dev-multitools
+claude plugin install kt
 ```
 
-## Plugins
+## Skills
 
-### dev-multitools (`mt`)
-
-Swiss army knife for software development. Improve the overall code quality by developing carefully and steadily.
-
-#### `/mt:breakdown`
+### `/kt:breakdown`
 
 Break down a given task into subtasks with time estimates. Analyzes the codebase and task requirements to produce a structured plan with estimated effort (XS/S/M/L/XL) for each step. Optionally saves the plan as `plan.md`.
 
-#### `/mt:execute`
+### `/kt:execute`
 
 Execute a plan step by step. Reads `plan.md` in the current working directory or a plan from the conversation context, then implements each subtask sequentially with verification at each step.
 
-#### `/mt:simplify`
+### `/kt:simplify`
 
 Read source code and find opportunities to simplify, deduplicate, and consolidate. Applies changes after user approval.
 
-#### `/mt:review-testability`
+### `/kt:review-testability`
 
 Review code or diffs with a focus on testability, simplicity, and sustainable design. Evaluates dependency injection, side-effect separation, behavior-vs-implementation testing, test quality, YAGNI, quality-speed tradeoffs, technical debt, and refactoring opportunities. Produces a severity-rated report with concrete suggestions.
 
-#### `/mt:review-ddd`
+### `/kt:review-ddd`
 
 Review the codebase from a Domain-Driven Design perspective. Evaluate bounded contexts, aggregates, entities, value objects, domain services, repositories, domain events, and ubiquitous language usage. Produces a scored report with concrete improvement suggestions.
 
-#### `/mt:find-ubiquitous-language`
+### `/kt:find-ubiquitous-language`
 
 Analyze the codebase to discover and extract the ubiquitous language. Identifies domain terms, their definitions, code locations, and inconsistencies such as synonyms, homonyms, and missing terms. Outputs a structured glossary.
 
-#### `/mt:document-ddd`
+### `/kt:document-ddd`
 
 Generate or update DDD documentation based on the current state of the codebase. Produces a single `DOMAIN.md` with context map, glossary, and per-aggregate documentation. Shows a diff and asks for confirmation before writing.
 
