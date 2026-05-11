@@ -16,7 +16,6 @@ Then, install the plugins you want:
 
 ```sh
 claude plugin install dev-multitools
-claude plugin install ddd
 ```
 
 ## Plugins
@@ -41,21 +40,17 @@ Read source code and find opportunities to simplify, deduplicate, and consolidat
 
 Review code or diffs with a focus on testability, simplicity, and sustainable design. Evaluates dependency injection, side-effect separation, behavior-vs-implementation testing, test quality, YAGNI, quality-speed tradeoffs, technical debt, and refactoring opportunities. Produces a severity-rated report with concrete suggestions.
 
-### ddd (`ddd`)
-
-Domain-Driven Design toolkit. Review code from DDD perspective, discover ubiquitous language, and maintain DDD documentation.
-
-#### `/ddd:review`
+#### `/mt:review-ddd`
 
 Review the codebase from a Domain-Driven Design perspective. Evaluate bounded contexts, aggregates, entities, value objects, domain services, repositories, domain events, and ubiquitous language usage. Produces a scored report with concrete improvement suggestions.
 
-#### `/ddd:find-ubiquitous-language`
+#### `/mt:find-ubiquitous-language`
 
 Analyze the codebase to discover and extract the ubiquitous language. Identifies domain terms, their definitions, code locations, and inconsistencies such as synonyms, homonyms, and missing terms. Outputs a structured glossary.
 
-#### `/ddd:update-docs`
+#### `/mt:document-ddd`
 
-Generate or update DDD documentation based on the current state of the codebase. Creates context maps, glossaries, and per-aggregate documentation under `docs/ddd/`. Shows a diff and asks for confirmation before writing.
+Generate or update DDD documentation based on the current state of the codebase. Produces a single `DOMAIN.md` with context map, glossary, and per-aggregate documentation. Shows a diff and asks for confirmation before writing.
 
 ## License
 

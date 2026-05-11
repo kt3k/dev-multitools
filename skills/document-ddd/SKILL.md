@@ -1,11 +1,11 @@
 ---
-name: update-domain-docs
+name: document-ddd
 description: |
   Update or create DDD documentation based on the current state of the codebase.
   Generates a single DOMAIN.md with context map, glossary, and aggregate documentation.
 ---
 
-## Update DDD Docs Skill
+## Document DDD Skill
 
 Generate or update Domain-Driven Design documentation to keep it in sync with the current codebase. All documentation is maintained in a single `DOMAIN.md` file at the project root.
 

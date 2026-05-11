@@ -1,5 +1,5 @@
 ---
-name: ddd-review
+name: review-ddd
 description: |
   Review code base from the viewpoint of Domain Driven Design (DDD) specialist.
   Evaluate how core business logics are well organized in terms of DDD principle.
