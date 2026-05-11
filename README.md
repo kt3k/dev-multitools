@@ -2,7 +2,7 @@
 
 # kt3k-skills
 
-Swiss army knife for software development. Improve the overall code quality by developing carefully and steadily.
+Skills for developing software carefully and steadily. Plan tasks, review code, and refine design to improve overall quality.
 
 ## Install
 
